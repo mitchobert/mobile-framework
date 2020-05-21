@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  height: 100%;
+}
+
+.page-left {
+  border-right: 1px solid #eee;
+}
+
+.page-left h1 {
+  padding: 0 16px;
+}
+
+.page-right {
+  padding: 16px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+nav a {
+  padding: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #eee;
+}
+
+.example {
+  padding: 16px;
+  background: #eee;
+}
